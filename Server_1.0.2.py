@@ -11,7 +11,7 @@ class Server:
         self.sk = socket.socket()
         self.client_name = []
         self.conn_lst = {}
-        self.my_addr = str(socket.gethostbyname_ex(socket.gethostname())[2][1])
+        self.my_addr = str(socket.gethostbyname_ex(socket.gethostname())[2][0])
         print(self.my_addr)
 
     def start_server(self):
