@@ -4,7 +4,7 @@ import threading
 
 import time
 from PyQt5 import QtWidgets
-from msg import msg_design
+import msg_design
 import socket
 
 
